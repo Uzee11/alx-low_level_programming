@@ -38,7 +38,9 @@ int find_largest_palindrome(void)
         {
             product = i * j;
             if (is_palindrome(product) && product > largest_palindrome)
+            {
                 largest_palindrome = product;
+            }
         }
     }
 
